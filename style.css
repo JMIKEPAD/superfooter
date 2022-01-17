@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;500;700;800;900&display=swap');
+        
+
+body{
+    margin: 0px;
+padding: 0px;
+font-family: 'Libre Franklin', sans-serif;
+}
+.container-wrap{
+    margin: 0px;
+    padding: 0px 0px 25px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+ 
+}
+.flexbox-black{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+    min-height: 140px;
+    background-color: #333;
+}
+.flexbox-black-child1{
+    height: 100%; 
+    margin-left: 75px; 
+    margin-right: 75px;
+}
+
+.flexbox-black-child2{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    height: 150px; 
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.flexbox-yellow{
+    background-color: #f8b334;
+}
+.flexbox-yellow-child1{
+    max-width: 1100px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.flexbox-yellow-child2{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-content: center; 
+    align-items: center;
+    min-height: 75px;
+}
+.flexbox-yellow-child3{
+    display: flex; 
+    flex-direction: row;
+}
+.copyright{
+    text-align: center;
+}
+.flexbox-white{
+    background-color: #f1f1f1;
+}  
+.flexbox-white-child1{
+    max-width: 1100px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.flexbox-white-child2{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-content: center; 
+    align-items: center; 
+    min-height: 120px; 
+    padding-top: 24px; 
+    padding-bottom: 24px;
+}
+.flexbox-white-child3{
+    text-align: left; 
+    max-width: 950px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
